@@ -244,13 +244,12 @@ berdasarkan data absensi sebelumnya.
 Informasi absensi (ID guru, waktu, status) dicatat ke database.
 
 ## g) Tampilkan notifikasi "Absensi Berhasil"
-```java
 AttendanceRecord record = new AttendanceRecord.Builder()
     .setGuruId("GR001")
     .setUid("A3F94C2")
     .setWaktuScan(LocalDateTime.now())
     .setStatus("Hadir")
-    .build();
+    .build();```
 ## h) "Laporan Selesai"
 
 <img width="790" height="1007" alt="image" src="https://github.com/user-attachments/assets/052c9166-1306-4df1-98dc-0755bde476a3" />
